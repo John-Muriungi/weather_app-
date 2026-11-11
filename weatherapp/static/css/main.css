@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-image: url('../images/bg.jpg');
+    background-color: #222222;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+.glass-card {
+    background: rgba(0, 0, 0, 0.45);
+    /* Translucent dark glass */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    padding: 25px;
+    color: #ffffff;
+    /* Makes all text white */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
